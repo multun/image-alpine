@@ -1,9 +1,10 @@
 ## -*- docker-image-name: "scaleway/alpine:latest" -*-
-FROM multiarch/alpine:x86_64-v3.3
+FROM multiarch/alpine:x86_64-v3.6
 # following 'FROM' lines are used dynamically thanks do the image-builder
 # which dynamically update the Dockerfile if needed.
-#FROM multiarch/alpine:armhf-v3.3   # arch=armv7l
-#FROM multiarch/alpine:x86-v3.3    # arch=i386
+#FROM multiarch/alpine:aarch64-v3.6 # arch=arm64
+#FROM multiarch/alpine:armhf-v3.6   # arch=armv7l
+#FROM multiarch/alpine:x86-v3.6     # arch=i386
 
 
 MAINTAINER Scaleway <opensource@scaleway.com> (@scaleway)
